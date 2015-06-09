@@ -50,14 +50,15 @@ stt_cmd_map= {
              "look left":(2,400,"p+"),#pan,400*10ms,left .. word left not recognized
              "look right":(2,400,"p-"),
              "look center":(2,400,"tp"),
+             #"look Center":(2,400,"tp"),
              "give faces":(3,500,"faces"),#test speech active?
              "give distance":(3,500,"sonar"),
              "give heading":(3,500,"compass"),#
              "track me":(4,400,"friend"),
              #"track object":(4,400,"object")
              "identify":(5,400,"id objects"),#recognize
-             "pick":(1,400,"left hand pickup"),
-             "throw":(1,400,"left hand throw")
+             "pick up":(1,400,"left hand pickup"),
+             "put down":(1,400,"left hand throw")
 }
 tts_objects_map={"1":"book",
                  "2":"box"}
@@ -288,7 +289,7 @@ class behavior:
 
 def set_speech(dat):
     if board["stt_read"]:
-        board["stt"]=dat.data
+        board["stt"]=dat.data.lower()
         rospy.loginfo("Heard : "+board["stt"])
         board["stt_read"]=False
 
