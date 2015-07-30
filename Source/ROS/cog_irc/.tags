@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+_OPENCOG_COGITA_CONFIG_H	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define _OPENCOG_COGITA_CONFIG_H$/;"	macro	line:21
+opencog	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^namespace opencog {$/;"	namespace	line:28
+chatbot	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^namespace chatbot {$/;"	namespace	line:29	namespace:opencog
+COGITA_DEFAULT_SERVER	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define COGITA_DEFAULT_SERVER /;"	macro	line:31
+COGITA_DEFAULT_PORT	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define COGITA_DEFAULT_PORT /;"	macro	line:32
+COGITA_DEFAULT_NICK	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define COGITA_DEFAULT_NICK /;"	macro	line:33
+COGITA_DEFAULT_CHANNELS	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define COGITA_DEFAULT_CHANNELS /;"	macro	line:34
+COGITA_VSTRING	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define COGITA_VSTRING /;"	macro	line:35
+COGITA_DEFAULT_ATTN	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define COGITA_DEFAULT_ATTN /;"	macro	line:36
+COGITA_DEFAULT_ATTN_SUFFIXES	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^#define COGITA_DEFAULT_ATTN_SUFFIXES /;"	macro	line:37
+CogitaConfig	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^class CogitaConfig {$/;"	class	line:42	namespace:opencog::chatbot
+ircNetwork	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^    std::string ircNetwork;$/;"	member	line:45	class:opencog::chatbot::CogitaConfig
+ircChannels	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^    std::vector<std::string> ircChannels;$/;"	member	line:46	class:opencog::chatbot::CogitaConfig
+ircPort	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^    int ircPort;$/;"	member	line:47	class:opencog::chatbot::CogitaConfig
+vstring	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^    std::string vstring;$/;"	member	line:48	class:opencog::chatbot::CogitaConfig
+nick	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^    std::string nick;$/;"	member	line:49	class:opencog::chatbot::CogitaConfig
+attn	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^    std::vector<std::string> attn;$/;"	member	line:50	class:opencog::chatbot::CogitaConfig
+helpOutput	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/CogitaConfig.h	/^    static const std::string helpOutput;$/;"	member	line:51	class:opencog::chatbot::CogitaConfig
+__CPIRC_VERSION__	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^#define __CPIRC_VERSION__	/;"	macro	line:29
+__IRC_DEBUG__	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^#define __IRC_DEBUG__ /;"	macro	line:30
+IRC_USER_VOICE	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^#define IRC_USER_VOICE	/;"	macro	line:32
+IRC_USER_HALFOP	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^#define IRC_USER_HALFOP	/;"	macro	line:33
+IRC_USER_OP	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^#define IRC_USER_OP	/;"	macro	line:34
+irc_reply_data	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^struct irc_reply_data$/;"	struct	line:36
+nick	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* nick;$/;"	member	line:38	struct:irc_reply_data
+ident	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* ident;$/;"	member	line:39	struct:irc_reply_data
+host	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* host;$/;"	member	line:40	struct:irc_reply_data
+target	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* target;$/;"	member	line:41	struct:irc_reply_data
+irc_command_hook	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^struct irc_command_hook$/;"	struct	line:44
+irc_command	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* irc_command;$/;"	member	line:46	struct:irc_command_hook
+function	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	int (*function)(const char*, irc_reply_data*, void*);$/;"	member	line:47	struct:irc_command_hook
+next	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	irc_command_hook* next;$/;"	member	line:48	struct:irc_command_hook
+channel_user	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^struct channel_user$/;"	struct	line:51
+nick	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* nick;$/;"	member	line:53	struct:channel_user
+channel	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* channel;$/;"	member	line:54	struct:channel_user
+flags	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char flags;$/;"	member	line:55	struct:channel_user
+next	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	channel_user* next;$/;"	member	line:56	struct:channel_user
+IRC	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^class IRC$/;"	class	line:59
+irc_socket	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	int irc_socket;$/;"	member	line:91	class:IRC
+connected	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	bool connected;$/;"	member	line:92	class:IRC
+sentnick	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	bool sentnick;$/;"	member	line:93	class:IRC
+sentpass	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	bool sentpass;$/;"	member	line:94	class:IRC
+sentuser	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	bool sentuser;$/;"	member	line:95	class:IRC
+cur_nick	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	char* cur_nick;$/;"	member	line:96	class:IRC
+dataout	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	FILE* dataout;$/;"	member	line:97	class:IRC
+datain	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	FILE* datain;$/;"	member	line:98	class:IRC
+chan_users	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	channel_user* chan_users;$/;"	member	line:99	class:IRC
+hooks	/home/mandeep/catkin_ws/src/cog_irc/include/cog_irc/IRC.h	/^	irc_command_hook* hooks;$/;"	member	line:100	class:IRC
+fixup_reply	/home/mandeep/catkin_ws/src/cog_irc/src/go-irc.cc	/^void fixup_reply(irc_reply_data* ird)$/;"	function	line:47	signature:(irc_reply_data* ird)
+end_of_motd	/home/mandeep/catkin_ws/src/cog_irc/src/go-irc.cc	/^int end_of_motd(const char* params, irc_reply_data* ird, void* data)$/;"	function	line:58	signature:(const char* params, irc_reply_data* ird, void* data)
+is_nonblank	/home/mandeep/catkin_ws/src/cog_irc/src/go-irc.cc	/^static bool is_nonblank(const char * str)$/;"	function	line:80	file:	signature:(const char * str)
+got_privmsg	/home/mandeep/catkin_ws/src/cog_irc/src/go-irc.cc	/^int got_privmsg(const char* params, irc_reply_data* ird, void* data)$/;"	function	line:92	signature:(const char* params, irc_reply_data* ird, void* data)
+FLOOD_CHAR_COUNT	/home/mandeep/catkin_ws/src/cog_irc/src/go-irc.cc	/^#define FLOOD_CHAR_COUNT /;"	macro	line:206	file:
+got_kick	/home/mandeep/catkin_ws/src/cog_irc/src/go-irc.cc	/^int got_kick(const char* params, irc_reply_data* ird, void* data)$/;"	function	line:287	signature:(const char* params, irc_reply_data* ird, void* data)
+main	/home/mandeep/catkin_ws/src/cog_irc/src/go-irc.cc	/^int main (int argc, char * argv[])$/;"	function	line:302	signature:(int argc, char * argv[])
+opencog	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^namespace opencog {$/;"	namespace	line:36	file:
+chatbot	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^namespace chatbot {$/;"	namespace	line:37	namespace:opencog	file:
+CogitaConfig	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^CogitaConfig::CogitaConfig() :$/;"	function	line:39	class:opencog::chatbot::CogitaConfig	signature:()
+helpOutput	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^const std::string CogitaConfig::helpOutput = $/;"	member	line:58	class:opencog::chatbot::CogitaConfig	file:
+printHelp	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^void CogitaConfig::printHelp() { cout << helpOutput; }$/;"	function	line:70	class:opencog::chatbot::CogitaConfig	signature:()
+printVersion	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^void CogitaConfig::printVersion() { cout << COGITA_VSTRING << endl; }$/;"	function	line:72	class:opencog::chatbot::CogitaConfig	signature:()
+parseOptions	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^int CogitaConfig::parseOptions(int argc, char* argv[])$/;"	function	line:74	class:opencog::chatbot::CogitaConfig	signature:(int argc, char* argv[])
+createAttnVector	/home/mandeep/catkin_ws/src/cog_irc/src/CogitaConfig.cc	/^void CogitaConfig::createAttnVector()$/;"	function	line:137	class:opencog::chatbot::CogitaConfig	signature:()
+closesocket	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^#define closesocket(/;"	macro	line:40	file:
+SOCKET_ERROR	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^#define SOCKET_ERROR /;"	macro	line:41	file:
+INVALID_SOCKET	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^#define INVALID_SOCKET /;"	macro	line:42	file:
+IRC	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^IRC::IRC()$/;"	function	line:45	class:IRC	signature:()
+~IRC	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^IRC::~IRC()$/;"	function	line:56	class:IRC	signature:()
+insert_irc_command_hook	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^void IRC::insert_irc_command_hook(irc_command_hook* hook, const char* cmd_name, $/;"	function	line:62	class:IRC	signature:(irc_command_hook* hook, const char* cmd_name, int (*function_ptr)(const char*, irc_reply_data*, void*))
+hook_irc_command	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^void IRC::hook_irc_command(const char* cmd_name, int (*function_ptr)(const char*, irc_reply_data*, void*))$/;"	function	line:84	class:IRC	signature:(const char* cmd_name, int (*function_ptr)(const char*, irc_reply_data*, void*))
+delete_irc_command_hook	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^void IRC::delete_irc_command_hook(irc_command_hook* cmd_hook)$/;"	function	line:100	class:IRC	signature:(irc_command_hook* cmd_hook)
+start	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::start(const char* server, int port, const char* nick, $/;"	function	line:109	class:IRC	signature:(const char* server, int port, const char* nick, const char* user, const char* name, const char* pass)
+disconnect	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^void IRC::disconnect()$/;"	function	line:169	class:IRC	signature:()
+quit	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::quit(const char* quit_message)$/;"	function	line:184	class:IRC	signature:(const char* quit_message)
+message_loop	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::message_loop()$/;"	function	line:198	class:IRC	signature:()
+split_to_replies	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^void IRC::split_to_replies(char* data)$/;"	function	line:223	class:IRC	signature:(char* data)
+is_op	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::is_op(const char* channel, const char* nick)$/;"	function	line:235	class:IRC	signature:(const char* channel, const char* nick)
+is_voice	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::is_voice(const char* channel, const char* nick)$/;"	function	line:253	class:IRC	signature:(const char* channel, const char* nick)
+parse_irc_reply	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^void IRC::parse_irc_reply(char* data)$/;"	function	line:271	class:IRC	signature:(char* data)
+call_hook	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^void IRC::call_hook(const char* irc_command, const char* params, irc_reply_data* hostd)$/;"	function	line:723	class:IRC	signature:(const char* irc_command, const char* params, irc_reply_data* hostd)
+notice	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::notice(const char* target, const char* message)$/;"	function	line:745	class:IRC	signature:(const char* target, const char* message)
+notice	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::notice(const char* fmt, ...)$/;"	function	line:753	class:IRC	signature:(const char* fmt, ...)
+privmsg	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::privmsg(const char* target, const char* message)$/;"	function	line:767	class:IRC	signature:(const char* target, const char* message)
+privmsg	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::privmsg(const char* fmt, ...)$/;"	function	line:775	class:IRC	signature:(const char* fmt, ...)
+join	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::join(const char* channel)$/;"	function	line:790	class:IRC	signature:(const char* channel)
+part	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::part(const char* channel)$/;"	function	line:798	class:IRC	signature:(const char* channel)
+kick	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::kick(const char* channel, const char* nick)$/;"	function	line:806	class:IRC	signature:(const char* channel, const char* nick)
+raw	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::raw(const char* data)$/;"	function	line:814	class:IRC	signature:(const char* data)
+kick	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::kick(const char* channel, const char* nick, const char* message)$/;"	function	line:822	class:IRC	signature:(const char* channel, const char* nick, const char* message)
+mode	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::mode(const char* channel, const char* modes, const char* targets)$/;"	function	line:830	class:IRC	signature:(const char* channel, const char* modes, const char* targets)
+mode	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::mode(const char* modes)$/;"	function	line:841	class:IRC	signature:(const char* modes)
+nick	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^int IRC::nick(const char* newnick)$/;"	function	line:849	class:IRC	signature:(const char* newnick)
+current_nick	/home/mandeep/catkin_ws/src/cog_irc/src/IRC.cc	/^const char* IRC::current_nick(void)$/;"	function	line:857	class:IRC	signature:(void)
